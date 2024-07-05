@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Awesome Product</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Product Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div class="product-container">
     <div class="product">
-      <img src="product-image.jpg" alt="Awesome Product">
-      <div class="product-details">
-        <h2>Awesome Product</h2>
-        <p class="price">$199.99</p>
-        <p class="description">
-          This is a description of our amazing product. It does amazing things and everyone loves it! 
-          It's packed with features, sleek design, and a user-friendly interface. 
-        </p>
-        <button class="add-to-cart">Add to Cart</button>
+      <div class="project-info">
+        <h1><a href="https://github.com/your-username/your-repo">Awesome Project Name</a></h1>
+        <p>Short, engaging description of your project that highlights key features and benefits.</p>
+        <div class="buttons">
+          <a href="https://github.com/your-username/your-repo" class="button">View on GitHub</a>
+          <a href="#" class="button">Download</a>  <!-- Add appropriate link for downloads -->
+          <a href="#" class="button">Documentation</a> <!-- Add appropriate link for documentation -->
+        </div>
       </div>
+      <img src="https://raw.githubusercontent.com/your-username/your-repo/main/screenshot.png" alt="Project Screenshot">  <!-- Replace with your project screenshot -->
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
-
 </html>
